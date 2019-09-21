@@ -62,7 +62,8 @@ nav#menu li {
 	height: 75px;
 	clear: both;
 	text-align: center;
-	margin-top: 7.25em;
+	width: -webkit-fill-available;
+	
 }
 
 #spaceFooterCadastro{
@@ -72,7 +73,6 @@ nav#menu li {
 	height: 75px;
 	clear: both;
 	text-align: center;
-	margin-top: 4.1em;
 }
 
 #colorBtnNav{
@@ -87,7 +87,9 @@ nav#menu li {
 
 
 footer {
-	
+	position: fixed;
+	bottom: 0;
+
 
 }
 
