@@ -1,0 +1,114 @@
+/*
+nav.menu {
+	display: block;
+}
+
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: -35px;
+	left: 540px;
+}
+
+nav#menu li {
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 10px ;
+	margin: 20px;
+
+}
+*/
+#panelLogin{
+	
+	background-color: #a9a9a9;
+	width: 400px;
+	height: 300px;
+	margin-top: 7em;
+	margin-left: 30em;
+	border: 1px solid;
+	border-radius: 10px 5% / 20px 30px;
+	padding: 7px 7px 7px 7px;
+}
+
+/*#panelCadastro{
+	background-color: #a9a9a9;
+	width: 400px;
+	height: 350px;
+	margin-top: 7em;
+	margin-left: 30em;
+	border: 1px solid;
+	border-radius: 10px 5% / 20px 30px;
+	padding: 7px 7px 7px 7px;
+}*/
+
+
+#btnLoginSpace{
+	min-width: 18em;
+	margin-top: 30px;
+	margin-left: 2.5em;
+}
+
+#btnCadastroSpace{
+	min-width: 18em;
+	margin-top: 5px;
+	margin-left: 2.5em;
+}
+
+#spaceFooter{
+	padding-top: 1.5em;
+	color: white;
+	background-color: #343a40!important;
+	height: 75px;
+	clear: both;
+	text-align: center;
+}
+
+
+#principal{
+	 background-color: #a9a9a9; 
+    width: 400px; 
+    height: 350px; 
+    left: 50%; 
+    margin: -130px 0 0 -210px; 
+    padding:10px;
+    position: absolute; 
+    top: 45%;
+    border-radius: 7px 7px 7px 7px;
+}
+
+#colorBtnNav{
+	color: white !important;
+}
+
+#colorButton{
+	color: #007bff
+}
+
+#esqueciSenha{
+	padding-left: 15.5em;
+	color: #0000FF;
+	font-size: 14px;
+}
+
+#colorTextNav{
+	color: white;
+}
+
+#colorTextNav:hover{
+	background-color: #007bff;
+	color: white;
+}
+
+
+
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: -webkit-fill-available;
+
+}
+
+

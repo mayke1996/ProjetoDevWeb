@@ -21,7 +21,6 @@
 
 
       <!-- Barra de Navegação -->
-      
             <a class="navbar-brand" href="index.html">
               <img src="logo.png" width="40" height="40" class"d-inline-block align-top" alt=""> 
           Samuber
@@ -45,36 +44,47 @@
             <li class="nav-item">
                 <a class="nav-link" id="colorTextNav" href="cadastro.html">Cadastre-se</a>
             </li>
+            
           </ul>
- 
           </div>
         </nav>
 
   </header>
 
+    <div id="principal">
+    <!--Tela de cadastro -->
 
-    
-        <div id="principal">
-    <!--Tela de Login -->
+    	<form>
+  			<div class="form-group" >
+  				<label for="nome" id="spaceLabelLogin">Nome</label>
+  				<input type="text" class="form-control" id="formGroupExampleInput" placeholder="Digite seu nome...">				
+  			</div>
+							  
+  			<div class="form-group" >  
+    			<label for="email" id="spaceLabelLogin">E-mail</label>
+    			<input type="email" class="form-control" id="email" placeholder="Digite seu e-mail...">
+  			</div>
+  
+  			<div class="form-group">
+    			<label for="password" id="spaceLabelLogin">Senha</label>
+    			<input type="password" class="form-control" id="formGroupExampleInput2" placeholder="Digite sua senha...">  
+  			</div>
+  
+  			<div class="checkbox">
+  				<span>Sexo:</span>
+				<label>
+					<input type="radio" name="opcoes"/> Masculino	
+				</label>						
+							
+				<label>
+					<input type="radio" name="opcoes"/> Feminino							
+				</label>
+  			</div>
+  
+  
+      	<!-- Botões (cadastrar) -->
+  			<button type="button" class="btn btn-primary" id="btnCadastroSpace">Cadastrar</button>
 
-    <form>
-  	 	<div class="form-group" >
-    		<label for="formGroupExampleInput" id="spaceLabelLogin">E-mail</label>
-    		<input type="email" class="form-control" id="email" placeholder="Digite seu e-mail...">
-  		</div>
-  		<div class="form-group">
-    		<label for="formGroupExampleInput2" id="spaceLabelLogin">Senha</label>
-    		<input type="password" class="form-control" id="formGroupExampleInput2" placeholder="Digite sua senha...">
-  		</div>
-  		<div>
-			<a href="#" id="esqueciSenha">Esqueci minha senha</a>  		
-  		</div>
-      	
-      	
-      <div>
-  			<button type="submit" class="btn btn-primary" id="btnLoginSpace">Entrar</button>
-  			<a href="cadastro.html" class="btn btn-primary" id="btnLoginSpace">Cadastre-se</a>
-		</div>
     </form>
   
     </div>
