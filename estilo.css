@@ -31,7 +31,7 @@ nav#menu li {
 	padding: 7px 7px 7px 7px;
 }
 
-#panelCadastro{
+/*#panelCadastro{
 	background-color: #a9a9a9;
 	width: 400px;
 	height: 350px;
@@ -40,12 +40,12 @@ nav#menu li {
 	border: 1px solid;
 	border-radius: 10px 5% / 20px 30px;
 	padding: 7px 7px 7px 7px;
-}
+}*/
 
 
 #btnLoginSpace{
 	min-width: 18em;
-	margin-top: 10px;
+	margin-top: 30px;
 	margin-left: 2.5em;
 }
 
@@ -62,17 +62,19 @@ nav#menu li {
 	height: 75px;
 	clear: both;
 	text-align: center;
-	margin-top: 7.25em;
 }
 
-#spaceFooterCadastro{
-	padding-top: 1.5em;
-	color: white;
-	background-color: #343a40!important;
-	height: 75px;
-	clear: both;
-	text-align: center;
-	margin-top: 4.1em;
+
+#principal{
+	 background-color: #a9a9a9; 
+    width: 400px; 
+    height: 350px; 
+    left: 50%; 
+    margin: -130px 0 0 -210px; 
+    padding:10px;
+    position: absolute; 
+    top: 45%;
+    border-radius: 7px 7px 7px 7px;
 }
 
 #colorBtnNav{
@@ -83,19 +85,31 @@ nav#menu li {
 	color: #007bff
 }
 
+#esqueciSenha{
+	padding-left: 15.5em;
+	color: #0000FF;
+	font-size: 14px;
+}
+
+#colorTextNav{
+	color: white;
+}
+
+#colorTextNav:hover{
+	background-color: #007bff;
+	color: white;
+}
+
 
 
 
 footer {
-	
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: -webkit-fill-available;
 
 }
 
-a{
-	color: white;
-}
-a:hover{
-	background-color: #007bff;
-	color: white;
-}
+
 

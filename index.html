@@ -21,36 +21,49 @@
 
 
       <!-- Barra de Navegação -->
-            <a class="navbar-brand" href="#">
+      
+      		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra-navagecao">
+					<span class="sr-only">alternar navegação</span>
+					<span class="icon-bar"></span>					
+					<span class="icon-bar"></span>					
+					<span class="icon-bar"></span>					
+				</button>
+            <a class="navbar-brand" href="index.html">
               <img src="logo.png" width="40" height="40" class"d-inline-block align-top" alt=""> 
           Samuber
             </a>
             <ul class="nav nav-pills" id="colorBtnNav">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Página inicial</a>
+              <a class="nav-link" id="colorTextNav" href="index.html">Página inicial</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Empresa</a>
+              <a class="nav-link dropdown-toggle" id="colorTextNav" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Empresa</a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Sobre a empresa</a>
-                <a class="dropdown-item" href="#">Fale Conosco</a>
+                <a class="dropdown-item" id="colorTextNav" href="#">Sobre a empresa</a>
+                <a class="dropdown-item" id="colorTextNav" href="#">Fale Conosco</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Ajuda?</a>
+              <a class="dropdown-item" id="colorTextNav" href="#">Ajuda?</a>
           <!--</div> -->
             </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Login</a>
+                <a class="nav-link" id="colorTextNav" href="index.html">Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="colorTextNav" href="cadastro.html">Cadastre-se</a>
             </li>
           </ul>
+ 
           </div>
         </nav>
 
   </header>
 
-    <div id="principal">
-    <!--Tela de login -->
 
-    <form id="panelLogin">
+    
+        <div id="principal">
+    <!--Tela de Login -->
+
+    <form>
   	 	<div class="form-group" >
     		<label for="formGroupExampleInput" id="spaceLabelLogin">E-mail</label>
     		<input type="email" class="form-control" id="email" placeholder="Digite seu e-mail...">
@@ -59,7 +72,10 @@
     		<label for="formGroupExampleInput2" id="spaceLabelLogin">Senha</label>
     		<input type="password" class="form-control" id="formGroupExampleInput2" placeholder="Digite sua senha...">
   		</div>
-      	<!-- Botões (Entrar e cadastrar) -->
+  		<div>
+			<a href="#" id="esqueciSenha">Esqueci minha senha</a>  		
+  		</div>
+      	
       	
       <div>
   			<button type="submit" class="btn btn-primary" id="btnLoginSpace">Entrar</button>
